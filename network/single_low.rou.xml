@@ -1,0 +1,15 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<vType accel="0.8" decel="4.5" id="Normal" laneChangeModel="SL2015" lcKeepRight="0" lcLookaheadLeft="100" lcMaxSpeedLatStanding="0" lcStrategic="100" length="5" maxSpeed="45" sigma="0.5" lcPushy="0.5" lcImpatience="0.5"/>
+    <flow id="flow1" from="NI" to="EO1" begin="0" end="10800" period="exp(0.016)" type="Normal" departLane="random"/>
+    <flow id="flow2" from="NI" to="SO1" begin="0" end="10800" period="exp(0.016)" type="Normal" departLane="random"/>
+    <flow id="flow3" from="NI" to="WO1" begin="0" end="10800" period="exp(0.016)" type="Normal" departLane="random"/>
+    <flow id="flow4" from="EI" to="SO1" begin="0" end="10800" period="exp(0.012)" type="Normal" departLane="random"/>
+    <flow id="flow5" from="EI" to="WO1" begin="0" end="10800" period="exp(0.012)" type="Normal" departLane="random"/>
+    <flow id="flow6" from="EI" to="NO1" begin="0" end="10800" period="exp(0.012)" type="Normal" departLane="random"/>    
+    <flow id="flow7" from="SI" to="WO1" begin="0" end="10800" period="exp(0.014)" type="Normal" departLane="random"/>
+    <flow id="flow8" from="SI" to="NO1" begin="0" end="10800" period="exp(0.014)" type="Normal" departLane="random"/>
+    <flow id="flow9" from="SI" to="EO1" begin="0" end="10800" period="exp(0.014)" type="Normal" departLane="random"/>
+    <flow id="flow10" from="WI" to="NO1" begin="0" end="10800" period="exp(0.01)" type="Normal" departLane="random"/>
+    <flow id="flow11" from="WI" to="EO1" begin="0" end="10800" period="exp(0.01)" type="Normal" departLane="random"/>
+    <flow id="flow12" from="WI" to="SO1" begin="0" end="10800" period="exp(0.01)" type="Normal" departLane="random"/>
+</routes>
